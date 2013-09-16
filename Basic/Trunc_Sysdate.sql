@@ -1,0 +1,1 @@
+select TRUNC(LAST_DAY(SYSDATE) - TO_DATE('01.01.2006', 'DD.MM.YYYY')) "DIFF" from dual;
